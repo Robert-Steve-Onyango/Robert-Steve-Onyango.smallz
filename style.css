@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "century gothic";
+    max-width: 1700px;
+}
+html{
+	scroll-behavior: smooth;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+
+.salon-banner{
+	min-height: 100vh;
+	object-fit: contain;
+	background: url('images/nice.jpg') center/cover no-repeat;
+	opacity: 0.8;
+	position: relative;
+}
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	align-items: center;
+	padding: 20px;
+}
+.logo{
+	color: paleturquoise;
+	font-size: 28px;
+	line-height: 1.5;
+	letter-spacing: 0.0576em;
+}
+.logo::after{
+	content: '';
+	width: 90%;
+	height: 2px;
+	background: cyan;
+	display: block;
+	margin: auto;
+
+}
+.nav-links {
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	cursor: pointer;
+}
+.nav-links a{
+	color: cyan;
+	transition: all 1s linear;
+}
+.nav-links a:hover{
+	background: rgba(1,1,1,0.5);
+	padding: 10px 20px;
+}
+.nav-links li {
+	margin: 0 30px;
+}
+.smallz-header{
+	padding-top: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.welkie{
+	font-size: 70px;
+	color: palevioletred;
+	background: rgba(216,217,229,0.4);
+	padding: 15px 10px;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 0.1em;
+	border-radius: 30px;
+}
+.main{
+	margin-bottom: 150px;
+	color: whitesmoke;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+.other{
+	font-size: 26px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: navajowhite;
+
+}
+.ctn{
+	padding: 8px 15px;
+	background: hotpink;
+	color: whitesmoke;
+	padding-bottom: 10px;
+}
+
+.events{
+	overflow: hidden;
+	margin-bottom: 50px;
+	}
+.services{
+	text-align: center ;
+	font-size: 30px;
+	color: black ;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.services::after{
+	content: '';
+	width: 10%;
+	height: 2px;
+	background: cyan;
+	display: block;
+	margin: auto;
+}
+.row{
+	background: coral;
+	display: flex;
+	align-items: flex-start;
+}
+ .col img {
+	width:80%;
+	height: 50vh;
+	margin: 20px;
+}
+.col-header{
+	margin: 20px;
+	color:#111;
+}
+
+#Dashboard,#Reviews,#AboutUs,#ContactUs{
+	padding-top: 50px;
+}
+.section-dashboard{
+	min-height: 100vh;
+	background: darkgray ;
+	margin-bottom: 30px;
+}
+.dashboard-header{
+	text-align: center;
+	color: black;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+.display{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-transform: capitalize;
+}
+.info{
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+.video-container{
+	width: 40%;
+	border-radius: 30px;
+	height: auto;
+	object-fit: contain;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.video{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-aboutus{
+	min-height: 100vh;
+	background: lightslategray;
+}
+.info-aboutus{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header-about{
+	text-align: center;
+	color: lightcyan;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.about-about{
+	text-align: center;
+	color: #fff;
+	max-width: 25rem;
+	font-size: 20px;
+}
+form{
+	margin-bottom: 30px;
+}
+.form-header{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color: #000;
+}
+input{
+	margin-top: 5px;
+
+}
+button{
+	background: cyan;
+	padding: 10px 15px;
+	outline: transparent;
+	border-color: transparent;
+	border-radius: 20px 10px;
+}
+.section-contactus{
+	min-height: 70vh;
+	background: lightblue;
+	margin-bottom: 30px;
+}
+.contactus-info{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.contactus-header{
+	text-align: center;
+	color: floralwhite;
+	margin-bottom: 10px;
+}
+.contactus-info p{
+	margin: 5px;
+}
+/*review*/
+.section-review{
+	 min-height: 100vh;
+	background: #111 ;
+	margin-bottom: 30px;
+}
+.audio-reviews{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.info-audio{
+	color: antiquewhite;
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+#comments{
+	padding: 50px 70px;
+	border-radius: 30px;
+}
+textarea{
+	font-size: 20px;
+}
+.submit-button{
+	padding: 20px 30px;
+	background: cyan;
+	border-radius: 20px 15px;
+	outline: transparent;
+	border-color: transparent;
+	text-transform: uppercase;
+	color: #000;
+}
+/*footer*/
+.footer{
+	background: #696969;
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: navajowhite;
+}
