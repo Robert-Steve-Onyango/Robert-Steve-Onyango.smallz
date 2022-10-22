@@ -25,12 +25,10 @@ ul{
 }
 .navbar {
 	position: fixed;
-	top: 0;
-	left: 0;
 	display: flex;
-	width: 80%;
+	width: 30%;
 	align-items: right;
-	padding: 20px;
+	padding: 10px;
 }
 .logo{
 	color: paleturquoise;
