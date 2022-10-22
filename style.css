@@ -19,7 +19,7 @@ ul{
 .salon-banner{
 	min-height: 100vh;
 	object-fit: contain;
-	background: url('images/nice.jpg') center/cover no-repeat;
+	background: url('nice.jpg') center/cover no-repeat;
 	opacity: 0.8;
 	position: relative;
 }
